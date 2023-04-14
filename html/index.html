@@ -22,16 +22,27 @@
     <!-- Forms -->
     <section id="container-form" class="container">
         <h6 class="text-center"> Para continuar, faça login no Spotify.</h6>
-        <a class="alternativas-login mt-2 justify-content-center" style="background-color: #2469ff;" href=""> <img class="mr-3" src="../img/icons8-facebook-novo-30.png" alt="Facebook"> Continuar com o Facebook </a>
+        <a class="alternativas-login my-2 justify-content-center" style="background-color: #2189ff;" href=""> <img class="mr-3" src="../img/icons8-facebook-novo-30.png" alt="Facebook"> Continuar com o Facebook </a>
         <a class="alternativas-login mt-2 justify-content-center" style="background-color: #181818;" href=""> <img class="mr-3" src="../img/icons8-mac-os-24.png" alt="Facebook"> Continuar com a Apple </a>
-        <a style="color: #929292; border: 1px solid #7c7c7c;" class="alternativas-login mt-2 justify-content-center" href=""> <img class="mr-3" src="../img/icons8-google-logo.svg" alt="Facebook"> Continuar com o Google </a>
-        <a style="color: #929292; border: 1px solid #7c7c7c;" class="alternativas-login mt-2 justify-content-center" href=""> Continuar com um número de Telefone </a>
+        <a style="color: #525252; border: 1px solid #7c7c7c;" class="alternativas-login mt-2 justify-content-center" href=""> <img class="mr-3" src="../img/icons8-google-logo.svg" alt="Facebook"> Continuar com o Google </a>
+        <a style="color: #525252; border: 1px solid #7c7c7c;" class="alternativas-login mt-2 justify-content-center" href=""> Continuar com um número de Telefone </a>
         <div id="division" class="d-flex justify-content-center my-3"> 
-            <hr size="1px" width="180px" color="#7c7c7c"> <span class="mx-2"> OU </span> <hr size="1px" width="180px" color="#7c7c7c"> 
+            <hr size="1px" width="180px" color="#7c7c7c"> <span class="mx-2"> OU </span> <hr size="4px" width="180px" color="#7c7c7c"> 
         </div>
-        <form action="">
-            
+        <form id="form-login" class="d-flex clearfix" action="">
+            <label class="mt-2" for="endereco-nome"> Endereço de e-mail ou nome de usuário:</label>
+            <input type="text" id="endereco-nome" name="endereco-nome" placeholder="Endereço de e-mail ou nome de usuário">
+            <label class="mt-2" for="senha"> Senha: </label>
+            <input type="text" id="senha" name="endereco-nome" placeholder="Senha">
+            <a class="my-3" href=""> Esqueceu sua senha? </a>
+            <div class="container-fluid d-flex" id="container-lembrar">
+                <input class="mr-2" type="checkbox" name="lembrar" id="lembrar" value="lembrar"> <span> Lembrar de mim </span>
+            </div>
+            <button id="entrar" class="float-right mb-4" type="submit"> ENTRAR </button>
         </form>
+        <h5 class="text-center my-4"> Não tem uma conta? </h5>
+        <a style="color: #525252; border: 1px solid #7c7c7c;" class="alternativas-login mt-2 justify-content-center" href=""> Inscrever-se no Spotify </a>
+
     </section>
 
     <script src="../js/bootstrap.min.js"></script>
