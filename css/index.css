@@ -1,0 +1,59 @@
+*{
+    padding: none;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#container-logo{
+    height: 95px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#logo{
+    margin: auto;
+    height: 70px;
+}
+
+#container-form{
+    margin-top: 45px;
+}
+
+#container-form h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alternativas-login{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    height: 47px;
+    width: 450px;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.alternativas-login img{
+    height: 25px;
+}
+
+.alternativas-login:hover{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    height: 47px;
+    width: 450px;
+}
+
+#division{
+    margin: auto;
+    height: 30px;
+    align-items: center;
+}
